@@ -1,0 +1,49 @@
+#header .logo img{
+    max-height: 80px;
+}
+
+#hero{
+    background: #800080;
+    height:60vh
+}
+
+#hero:before{
+    background: #800080;
+}
+
+#hero h1{
+    color:#FFFFFF;
+    margin-top:65px;
+}
+
+#hero h2{
+    color:#FFFFFF;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#hero h3{
+    color: #FFFFFF
+}
+
+#hero h5{
+    margin:20px 0;
+    color: #FFFFFF
+}
+
+img.profile{
+    width:100%;
+    border-radius: 10%;
+}
+
+
+@media (max-width: 768px) {
+    #hero{
+        /* height:100vh; */
+        height: 700px;
+        margin-top:40px
+    }
+    #hero h1{       
+        margin-top:0;
+    }
+}
